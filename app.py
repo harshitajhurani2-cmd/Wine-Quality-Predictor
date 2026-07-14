@@ -149,7 +149,7 @@ st.markdown(
 # ==============================================================================
 MODEL_PATH = "dt_winequality.pkl"
 SCALER_PATH = "scaler_winequality.pkl"
-COLUMNS_PATH = "columns.pkl"
+COLUMNS_PATH = "columns_wine_quality.pkl"
  
 FEATURE_INFO = {
     "fixed acidity":        {"min": 4.0,  "max": 16.0,  "default": 8.3,   "step": 0.1,   "unit": "g/dm³", "help": "Tartaric acid content — affects tartness."},
